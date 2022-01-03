@@ -29,7 +29,6 @@
     <node.version>v8.11.1</node.version>
     <nohttp-checkstyle.version>0.0.4.RELEASE</nohttp-checkstyle.version>
     <spring-format.version>0.0.27</spring-format.version>
-
   </properties>
 
   <dependencies>
@@ -113,7 +112,6 @@
       <version>${webjars-font-awesome.version}</version>
     </dependency>
     <!-- end of webjars -->
-
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-devtools</artifactId>
@@ -259,9 +257,7 @@
             <version>${pmdVersion}</version>
           </dependency>
         </dependencies>
-      </plugin>0
-
-
+      </plugin>
     </plugins>
   </build>
 
